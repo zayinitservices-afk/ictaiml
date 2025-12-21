@@ -20,9 +20,7 @@ export default function RootLayout({
     { href: "/submit", label: "Submission" },
     { href: "/publication", label: "Publication" },
     { href: "/register", label: "Registration" },
-    { href: "/venue", label: "Venue" },
-    { href: "/schedule", label: "Schedule" },
-    { href: "/key-dates", label: "Key Dates" },
+    { href: "/schedule", label: "Program" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -78,9 +76,7 @@ export default function RootLayout({
                 <div>
                   <h4 className="font-semibold mb-4">Information</h4>
                   <ul className="space-y-2 text-sm text-gray-400">
-                    <li><Link href="/venue" className="hover:text-white">Venue</Link></li>
-                    <li><Link href="/schedule" className="hover:text-white">Schedule</Link></li>
-                    <li><Link href="/key-dates" className="hover:text-white">Key Dates</Link></li>
+                    <li><Link href="/schedule" className="hover:text-white">Program (Schedule, Venue, Dates)</Link></li>
                   </ul>
                 </div>
                 <div>

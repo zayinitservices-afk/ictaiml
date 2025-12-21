@@ -63,9 +63,14 @@ export default function Home() {
 
             <section className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gray-200">
               <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Venue & Travel
+                Conference Program
               </h2>
-              <Venue />
+              <p className="text-gray-700 text-lg mb-6 max-w-3xl">
+                View the complete conference program including important dates, schedule, venue details, and travel information all in one place.
+              </p>
+              <Link href="/schedule" className="btn-primary inline-block">
+                View Program Details
+              </Link>
             </section>
 
             <section className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 shadow-xl border border-purple-100">
