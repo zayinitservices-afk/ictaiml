@@ -6,16 +6,16 @@ export default function CfpPage() {
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-4">Call for Papers</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Submit your research contributions to ICECAA 2025
+              Submit your research contributions to ICTAIML 2026
             </p>
           </div>
           <div className="card space-y-8">
         <section className="bg-gradient-to-r from-indigo-50 to-purple-50 p-6 rounded-xl">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Scope</h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            ICECAA 2025 welcomes original research and industry case studies spanning electronics,
+            ICTAIML 2026 welcomes original research and industry case studies spanning software modules,
             communication systems, signal processing, and artificial intelligence. Interdisciplinary
-            works that connect hardware, networks, and AI-driven applications are encouraged.
+            works that connect hardware, software networks, and AI-driven applications are encouraged.
           </p>
         </section>
         
@@ -23,16 +23,43 @@ export default function CfpPage() {
           <h2 className="text-3xl font-bold mb-4 text-gray-900 pb-3 border-b-2 border-indigo-500">Topics of Interest</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <ul className="list-disc list-inside space-y-2 text-gray-700">
-              <li>VLSI, embedded systems, and low-power design</li>
-              <li>Wireless, 5G/6G, MIMO, and network optimization</li>
-              <li>Signal, image, and speech processing; remote sensing</li>
+              <li>High performance computing</li>
+              <li>Blockchain Technologies</li>
+              <li>Quantum computing</li>
               <li>Applied AI, edge intelligence, and federated learning</li>
+              <li>Deep learning and evolutionary systems</li>
+              <li>Big data and intelligent systems</li>
+              <li>Business analytics and data engineering</li>
+              <li>Cyber security and information retrieval systems</li>
+              <li>Data privacy</li>
+              <li>Community information systems</li>
+              <li>Smart grid systems, intelligent control, and robotics</li>
+              <li>Communication in wireless multimedia sensor networks</li>
+              <li>5g networks and internet of things (IOT)</li>
+              <li>Internet security and privacy localization</li>
+              <li>Mobile and ubiquitous computing</li>
+              <li>Computational biology</li>
+              <li>Biomedical signal analysis</li>
             </ul>
             <ul className="list-disc list-inside space-y-2 text-gray-700">
-              <li>Computer vision, generative AI, and multimodal models</li>
-              <li>Robotics, control, and autonomous systems</li>
-              <li>Smart grids, intelligent transportation, and IoT</li>
-              <li>Security, privacy, and trustworthy AI</li>
+              <li>Generative AI for efficient algorithms</li>
+              <li>Cloud computing and solutions</li>
+              <li>Digital image processing</li>
+              <li>Natural language processing</li>
+              <li>Communication theory</li>
+              <li>Computational theory</li>
+              <li>Genetic engineering</li>
+              <li>AI in bio-technology</li>
+              <li>5G & 6G technologies</li>
+              <li>Internet of things</li>
+              <li>Speech recognition</li>
+              <li>Data mining</li>
+              <li>Sensor-based intelligence</li>
+              <li>Mobile computing</li>
+              <li>Quantum computing</li>
+              <li>Green computing</li>
+              <li>Mobile edge and collaborative computing</li>
+
             </ul>
           </div>
         </section>
@@ -41,12 +68,12 @@ export default function CfpPage() {
           <h2 className="text-3xl font-bold mb-4">Important Dates</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <ul className="space-y-3">
-              <li className="flex justify-between"><span>Submission Deadline:</span> <strong>July 12, 2025</strong></li>
-              <li className="flex justify-between"><span>Notification:</span> <strong>August 20, 2025</strong></li>
+              <li className="flex justify-between"><span>Submission Deadline:</span> <strong>May 30, 2026</strong></li>
+              <li className="flex justify-between"><span>Notification:</span> <strong>June 10, 2026</strong></li>
             </ul>
             <ul className="space-y-3">
-              <li className="flex justify-between"><span>Camera Ready:</span> <strong>September 10, 2025</strong></li>
-              <li className="flex justify-between"><span>Conference:</span> <strong>October 15-17, 2025</strong></li>
+              <li className="flex justify-between"><span>Camera Ready:</span> <strong>June 15, 2026</strong></li>
+              <li className="flex justify-between"><span>Conference:</span> <strong>June 26-27, 2026</strong></li>
             </ul>
           </div>
         </section>
@@ -54,32 +81,32 @@ export default function CfpPage() {
         <section>
           <h2 className="text-3xl font-bold mb-4 text-gray-900 pb-3 border-b-2 border-indigo-500">Submission Guidelines</h2>
           <p className="text-gray-700 mb-4">
-            Papers must follow the IEEE double-column format (A4). Regular papers: up to 8 pages; short
+            Papers must follow the Springer paper template. Regular papers: up to 8 pages; short
             papers/work-in-progress: up to 4 pages. Include keywords and ORCID where available.
             Submissions undergo double-blind peer review; please anonymize manuscripts.
           </p>
           <div className="flex flex-wrap gap-3">
             <a 
-              href="/template.docx" 
+              href="/springer-template.docm" 
               download 
               className="btn-primary inline-block"
             >
               Download DOCX Template
             </a>
             <a 
-              href="/template.pdf" 
+              href="/template.zip" 
               download 
               className="bg-white border-2 border-indigo-600 text-indigo-600 px-4 py-2 rounded-md hover:bg-indigo-50 inline-block"
             >
-              Download PDF Template
+              Download LaTeX Template
             </a>
-            <a 
+            {/* <a 
               href="/author-checklist.pdf" 
               download 
               className="text-indigo-600 hover:underline inline-flex items-center"
             >
               Author Checklist
-            </a>
+            </a> */}
           </div>
         </section>
 

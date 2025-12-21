@@ -35,3 +35,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Public files (optional - uncomment if you want to ignore template files in git)
+# /public/template.docx
+# /public/template.zip
+# /public/author-checklist.pdf

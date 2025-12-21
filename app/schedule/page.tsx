@@ -5,33 +5,39 @@ export default function SchedulePage() {
   const dates = [
     { 
       phase: "Paper Submission", 
-      date: "July 12, 2025", 
-      description: "Full paper submission deadline (8 pages for regular, 4 pages for short papers)",
+      date: "May 30, 2026", 
+      description: "Full paper submission deadline (12 pages for regular, 6 pages for short papers)",
+      status: "upcoming"
     },
     { 
       phase: "Notification of Acceptance", 
-      date: "August 20, 2025", 
+      date: "July 10, 2026", 
       description: "Authors will be notified of acceptance/rejection decisions",
+      status: "upcoming"
     },
     { 
       phase: "Camera-Ready Submission", 
-      date: "September 10, 2025", 
+      date: "June 15, 2026", 
       description: "Final version with revisions must be submitted",
+      status: "upcoming"
     },
-    { 
+    /* { 
       phase: "Early Bird Registration", 
-      date: "August 25, 2025", 
+      date: "August 20, 2025", 
       description: "Register early to avail discounted rates",
+      status: "upcoming"
     },
     { 
       phase: "Regular Registration", 
-      date: "September 30, 2025", 
+      date: "September 5, 2025", 
       description: "Last date for regular registration",
-    },
+      status: "upcoming"
+    }, */
     { 
       phase: "Conference Dates", 
-      date: "October 15-17, 2025", 
-      description: "Three days of technical sessions, keynotes, and networking",
+      date: "June 26 & 27, 2026", 
+      description: "Two days of technical sessions, keynotes, and networking",
+      status: "upcoming"
     },
   ];
 
@@ -42,7 +48,7 @@ export default function SchedulePage() {
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-4">Conference Program</h1>
             <p className="text-xl text-gray-600 mb-2">
-              October 15-17, 2025 | Hybrid: Singapore + Online
+              June 26 & 27, 2026 | Hybrid: Annai Engineering College + Online
             </p>
             <p className="text-gray-500">
               Important dates, schedule, venue, and travel information
@@ -80,12 +86,12 @@ export default function SchedulePage() {
           </section>
 
           {/* Conference Schedule Section */}
-          <section className="mb-16">
+          {/* <section className="mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
               Conference Schedule
             </h2>
             <ScheduleList />
-          </section>
+          </section> */}
 
           {/* Venue & Travel Section */}
           <section className="mb-12">
@@ -99,9 +105,9 @@ export default function SchedulePage() {
                 <h3 className="text-3xl font-bold text-gray-900 mb-4">Physical Venue</h3>
                 <div className="space-y-4 text-gray-700">
                   <div>
-                    <p className="font-semibold text-lg mb-2">Singapore Convention Centre</p>
-                    <p className="text-gray-600">1 Raffles Boulevard</p>
-                    <p className="text-gray-600">Singapore 039593</p>
+                    <p className="font-semibold text-lg mb-2">Annai Engineering College</p>
+                    <p className="text-gray-600">Kumbakonam</p>
+                    <p className="text-gray-600">Kumbakonam</p>
                   </div>
                   <div className="p-4 bg-indigo-50 rounded-lg">
                     <p className="text-sm">
@@ -133,25 +139,24 @@ export default function SchedulePage() {
             <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-100 mb-8">
               <h3 className="text-3xl font-bold text-gray-900 mb-6">Travel Information</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="p-4 bg-gray-50 rounded-lg">
+                {/* <div className="p-4 bg-gray-50 rounded-lg">
                   <h4 className="font-semibold text-lg mb-2">By Air</h4>
                   <p className="text-sm text-gray-700">
                     Singapore Changi Airport (SIN) is 20 km from the venue. 
                     Direct flights from major cities worldwide. Airport shuttle and taxi services available.
                   </p>
-                </div>
+                </div> */}
                 <div className="p-4 bg-gray-50 rounded-lg">
-                  <h4 className="font-semibold text-lg mb-2">By MRT (Metro)</h4>
+                  <h4 className="font-semibold text-lg mb-2">By Bus</h4>
                   <p className="text-sm text-gray-700">
-                    Nearest station: Marina Bay (Circle Line, Downtown Line). 
-                    The venue is a 5-minute walk from the station.
+                    Nearest bus stop: Kallapuliyur. 
                   </p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg">
-                  <h4 className="font-semibold text-lg mb-2">By Taxi/Grab</h4>
+                  <h4 className="font-semibold text-lg mb-2">By Taxi/Auto</h4>
                   <p className="text-sm text-gray-700">
-                    Taxis and ride-sharing services (Grab, Gojek) are readily available throughout Singapore.
-                    Approximately 30 minutes from airport.
+                    Taxis and autos are readily available throughout Kumbakonam.
+                    Approximately 20 minutes from Kumbakonam railway station and bus terminus.
                   </p>
                 </div>
               </div>
@@ -164,15 +169,15 @@ export default function SchedulePage() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-4 border border-gray-200 rounded-lg">
-                  <p className="font-semibold">Marina Bay Sands</p>
-                  <p className="text-sm text-gray-600">0.8 km from venue • SGD 350/night</p>
-                  <p className="text-xs text-indigo-600 mt-1">Use code: ICECAA2025</p>
+                  <p className="font-semibold">Madhanam Inn</p>
+                  <p className="text-sm text-gray-600">3 kms from venue • Rs 2000/night</p>
+                  <p className="text-xs text-indigo-600 mt-1">Use code: ICTAIML2026</p>
                 </div>
-                <div className="p-4 border border-gray-200 rounded-lg">
+                {/* <div className="p-4 border border-gray-200 rounded-lg">
                   <p className="font-semibold">Pan Pacific Singapore</p>
                   <p className="text-sm text-gray-600">0.5 km from venue • SGD 280/night</p>
                   <p className="text-xs text-indigo-600 mt-1">Use code: ICECAA2025</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </section>

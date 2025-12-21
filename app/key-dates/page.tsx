@@ -2,23 +2,23 @@ export default function KeyDatesPage() {
   const dates = [
     { 
       phase: "Paper Submission", 
-      date: "June 15, 2025", 
-      description: "Full paper submission deadline (8 pages for regular, 4 pages for short papers)",
+      date: "May 30, 2026", 
+      description: "Full paper submission deadline (12 pages for regular, 6 pages for short papers)",
       status: "upcoming"
     },
     { 
       phase: "Notification of Acceptance", 
-      date: "July 30, 2025", 
+      date: "July 10, 2026", 
       description: "Authors will be notified of acceptance/rejection decisions",
       status: "upcoming"
     },
     { 
       phase: "Camera-Ready Submission", 
-      date: "August 15, 2025", 
+      date: "June 15, 2026", 
       description: "Final version with revisions must be submitted",
       status: "upcoming"
     },
-    { 
+    /* { 
       phase: "Early Bird Registration", 
       date: "August 20, 2025", 
       description: "Register early to avail discounted rates",
@@ -29,11 +29,11 @@ export default function KeyDatesPage() {
       date: "September 5, 2025", 
       description: "Last date for regular registration",
       status: "upcoming"
-    },
+    }, */
     { 
       phase: "Conference Dates", 
-      date: "September 10-12, 2025", 
-      description: "Three days of technical sessions, keynotes, and networking",
+      date: "June 26 & 27, 2026", 
+      description: "Two days of technical sessions, keynotes, and networking",
       status: "upcoming"
     },
   ];
