@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import MobileNav from "@/components/MobileNav";
 
 export const metadata: Metadata = {
-  title: "ICTAIML 2026 - International Conference",
+  title: "ICCINGES 2026 - International Conference",
   description: "Artificial Intelligence and Machine Learning in one global forum",
 };
 
@@ -31,8 +32,13 @@ export default function RootLayout({
           <div className="w-full px-4 sm:px-6 lg:px-8">
             <div className="max-w-full mx-auto">
               <div className="flex justify-between items-center py-4">
-                <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                  ICTAIML 2026
+                <Link href="/" className="flex items-center gap-3">
+                  <img
+                    src="/iccinges-logo.svg"
+                    alt="ICCINGES Logo"
+                    className="h-14 md:h-16 w-auto"
+                  />
+                  <span className="text-2xl font-bold text-gray-900">2026</span>
                 </Link>
                 <div className="hidden lg:flex gap-1 items-center">
                   {navLinks.map((link) => (
@@ -45,11 +51,7 @@ export default function RootLayout({
                     </Link>
                   ))}
                 </div>
-                <button className="lg:hidden p-2 text-gray-700">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </button>
+                <MobileNav />
               </div>
             </div>
           </div>
@@ -60,9 +62,9 @@ export default function RootLayout({
             <div className="max-w-7xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
                 <div>
-                  <h3 className="text-xl font-bold mb-4">ICTAIML</h3>
+                  <h3 className="text-xl font-bold mb-4">ICCINGES</h3>
                   <p className="text-gray-400 text-sm">
-                    International Conference on Artificial Intelligence and Machine Learning
+                    International Conference on Computational Intelligence and Next Generation Engineering Solutions
                   </p>
                 </div>
                 <div>
@@ -89,7 +91,7 @@ export default function RootLayout({
                 </div>
               </div>
               <div className="border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
-                <p>&copy; 2026 ICTAIML. All rights reserved.</p>
+                <p>&copy; 2026 ICCINGES. All rights reserved.</p>
               </div>
             </div>
           </div>

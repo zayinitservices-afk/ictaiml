@@ -1,3 +1,5 @@
+import SpeakerImage from '@/components/SpeakerImage';
+
 export default function SpeakersPage() {
   const speakers = [
     {
@@ -5,42 +7,42 @@ export default function SpeakersPage() {
       title: "Professor - School of Information Technology",
       affiliation: "Deakin University, Burwood Campus, Australia",
       bio: "Specialized in AI, data privacy, machine learning, and cyber resilience, directing research centres like TULIP LAB and CREST",
-      image: "/speakers/sarah-chen.jpg",
+      image: "/gang-li.jpeg",
     },
     {
       name: "Dr. Sachi Nandan Mohanty",
       title: "Professor - School of Computer Science and Engineering",
       affiliation: "VIT, Andra Pradesh, India",
       bio: "Specialization in fuzzy decision making, cognition, machine learning in health care, socisal network analysis, MCDM, brain computer interface. ",
-      image: "/speakers/michael-rodriguez.jpg",
+      image: "/sachi-nandan.jpeg",
     },
     {
       name: "Dr. Xiao Zhi Gao",
       title: "Professor - School of Computing",
       affiliation: "University of Eastern, Finland",
       bio: "Specialization in data mining, machine learning, networking, industrial electronics, and signal processing.",
-      image: "/speakers/priya-sharma.jpg",
+      image: "/xiao-zhi-gao.jpeg",
     },
     {
       name: "Dr. Deepak Mishra",
       title: "Professor - Department of Avionics",
       affiliation: "Indian Institute of Space Science and Technology",
       bio: "Specialization in computer vision, deep learning, and robotics, with extensive experience in satellite image processing and navigation systems.",
-      image: "/speakers/david-kim.jpg",
+      image: "/deepak-mishra.jpeg",
     },
     {
       name: "Dr. Sri Devi",
       title: "Associate Professor - Department of Information Systems",
       affiliation: "University of Malaya, Malaysia",
       bio: "Specialization in information retrieval, natural language processing, and data analytics.",
-      image: "/speakers/david-kim.jpg",
+      image: "/sri-devi.jpeg",
     },
     {
       name: "Mr. Chandrasekar Surendhar",
       title: "Technical Project Manager",
       affiliation: "NTT Data Singapore PVT LTD, Singapore",
       bio: "Specialization in data storage management, automation, problem solving and optimization.",
-      image: "/speakers/david-kim.jpg",
+      image: "/chandrasekar-surendhar.jpeg", // Placeholder - add image when available
     },
   ];
 
@@ -64,9 +66,11 @@ export default function SpeakersPage() {
                 <div className="bg-gradient-to-r from-indigo-600 to-purple-600 h-2"></div>
                 <div className="p-6">
                   <div className="flex items-start gap-4">
-                    <div className="w-24 h-24 rounded-full bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold flex-shrink-0">
-                      {speaker.name.split(' ').map(n => n[0]).join('')}
-                    </div>
+                    <SpeakerImage
+                      src={speaker.image}
+                      alt={speaker.name}
+                      name={speaker.name}
+                    />
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold text-gray-900 mb-1">{speaker.name}</h3>
                       <p className="text-indigo-600 font-semibold mb-1">{speaker.title}</p>

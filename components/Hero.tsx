@@ -7,11 +7,20 @@ export default function Hero() {
       }}></div>
       <div className="relative w-full px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 drop-shadow-lg">
-            ICTAIML 2026
-          </h1>
+          <div className="flex flex-col items-center justify-center mb-6">
+            <div className="mb-4">
+              <img
+                src="/iccinges-logo.svg"
+                alt="ICCINGES Logo"
+                className="h-32 md:h-40 lg:h-48 w-auto mx-auto drop-shadow-lg"
+              />
+            </div>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold drop-shadow-lg">
+              2026
+            </h1>
+          </div>
           <p className="text-2xl md:text-3xl mb-4 font-light">
-            International Conference on Artificial Intelligence & Machine Learning
+            International Conference on Computational Intelligence and Next Generation Engineering Solutions
           </p>
           <p className="text-xl md:text-2xl opacity-95 mb-8 font-medium">
             Organized by
@@ -20,11 +29,11 @@ export default function Hero() {
             Annai College of Engineering and Technology & ZAYIN IT SERVICES
           </p>
           <p className="text-xl md:text-2xl opacity-95 mb-8 font-medium">
-            May 25 & 26, 2026 | Hybrid: India + Online
+            May 25 & 26, 2026 | Hybrid
           </p>
-          <p className="text-2xl md:text-3xl font-semibold mb-8">
+          {/* <p className="text-2xl md:text-3xl font-semibold mb-8">
             Software Intelligence, communication, and cognition
-          </p>
+          </p> */}
           <p className="text-lg md:text-xl max-w-4xl mx-auto mb-12 leading-relaxed opacity-95">
             A global forum bridging hardware, networks, and intelligent systems to build trustworthy,
             high-performance solutions for industry and society.

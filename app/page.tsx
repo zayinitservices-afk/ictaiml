@@ -22,25 +22,25 @@ export default function Home() {
           <div className="mt-16 space-y-16">
             <section className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gray-200">
               <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Why Attend ICTAIML 2026?
+                Why Attend ICCINGES 2026?
               </h2>
               <p className="text-gray-700 text-lg max-w-4xl leading-relaxed">
                 Experience a full-spectrum program spanning softwares, computing methodologies, applied AI, machine learning, networking, cyber security, communication systems and so on.
                 Network with academia and industry leaders, attend tutorials, and explore live demos that mirror
-                the depth of the ICTAIML program.
+                the depth of the ICCINGES program.
               </p>
               <div className="mt-8">
                 <Stats />
               </div>
             </section>
 
-            <section className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 shadow-xl border border-indigo-100">
+            {/* <section className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 shadow-xl border border-indigo-100">
               <div className="flex items-center justify-between flex-wrap gap-4 mb-6">
                 <h2 className="text-4xl font-bold text-gray-900">Conference Tracks</h2>
-                <p className="text-sm text-gray-600 font-medium">Expanded from ICTAIML focus areas</p>
+                <p className="text-sm text-gray-600 font-medium">Expanded from ICCINGES focus areas</p>
               </div>
               <Tracks />
-            </section>
+            </section> */}
 
             <section className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-2">
@@ -49,13 +49,13 @@ export default function Home() {
               <div className="card">
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">Downloads & Templates</h3>
                 <ul className="list-disc list-inside space-y-2 text-gray-700 text-sm mb-4">
-                  <li><a href="/template.docx" className="text-indigo-600 hover:text-indigo-800 hover:underline font-medium">Paper template (DOCX)</a></li>
-                  <li><a href="/template.pdf" className="text-indigo-600 hover:text-indigo-800 hover:underline font-medium">Paper template (PDF)</a></li>
-                  <li><a href="/poster-guidelines.pdf" className="text-indigo-600 hover:text-indigo-800 hover:underline font-medium">Poster guidelines</a></li>
+                  <li><a href="/springer-template.docm" download className="text-indigo-600 hover:text-indigo-800 hover:underline font-medium">Paper template (DOCX)</a></li>
+                  <li><a href="/template.zip" className="text-indigo-600 hover:text-indigo-800 hover:underline font-medium">Paper template (LATEX)</a></li>
+                  {/* <li><a href="/poster-guidelines.pdf" className="text-indigo-600 hover:text-indigo-800 hover:underline font-medium">Poster guidelines</a></li> */}
                 </ul>
                 <div className="p-3 bg-indigo-50 rounded-lg">
                   <p className="text-xs text-gray-600">
-                    Use IEEE double-column format; max 8 pages (regular), 4 pages (short).
+                    Use Springer format; max 12 pages (regular), 6 pages (short).
                   </p>
                 </div>
               </div>
@@ -73,17 +73,17 @@ export default function Home() {
               </Link>
             </section>
 
-            <section className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 shadow-xl border border-purple-100">
+            {/* <section className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 shadow-xl border border-purple-100">
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Organizing Committee</h2>
               <Committee />
-            </section>
+            </section> */}
 
-            <section className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gray-200">
+            {/* <section className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gray-200">
               <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                 Sponsors & Partners
               </h2>
               <Sponsors />
-            </section>
+            </section> */}
           </div>
         </div>
       </div>

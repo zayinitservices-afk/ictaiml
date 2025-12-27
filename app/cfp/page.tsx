@@ -6,14 +6,14 @@ export default function CfpPage() {
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-4">Call for Papers</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Submit your research contributions to ICTAIML 2026
+              Submit your research contributions to ICCINGES 2026
             </p>
           </div>
           <div className="card space-y-8">
         <section className="bg-gradient-to-r from-indigo-50 to-purple-50 p-6 rounded-xl">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Scope</h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            ICTAIML 2026 welcomes original research and industry case studies spanning software modules,
+            ICCINGES 2026 welcomes original research and industry case studies spanning software modules,
             communication systems, signal processing, and artificial intelligence. Interdisciplinary
             works that connect hardware, software networks, and AI-driven applications are encouraged.
           </p>

@@ -6,7 +6,7 @@ export default function CfpHighlights() {
       <div className="card">
         <h3 className="text-xl font-semibold mb-3">Call for Papers</h3>
         <p className="text-gray-600 mb-4">
-          Electronics, communication, signal processing, and AI systems. Submission deadline: July 12, 2025.
+          Software, communication, signal processing, intelligence systems and AI systems. Submission deadline: May 30, 2026.
         </p>
         <Link href="/cfp" className="text-indigo-600 hover:underline">
           Learn more →
@@ -16,7 +16,7 @@ export default function CfpHighlights() {
       <div className="card">
         <h3 className="text-xl font-semibold mb-3">Key Tracks</h3>
         <ul className="text-gray-600 space-y-1 text-sm">
-          <li>• VLSI & embedded systems</li>
+          <li>• Networking & cyrptographic techniques</li>
           <li>• Wireless & 6G communication</li>
           <li>• Signal & image processing</li>
           <li>• Applied AI & edge intelligence</li>
@@ -26,10 +26,10 @@ export default function CfpHighlights() {
       <div className="card">
         <h3 className="text-xl font-semibold mb-3">Important Dates</h3>
         <ul className="text-gray-600 space-y-1 text-sm">
-          <li>Submission: May 09</li>
-          <li>Notification: May 16</li>
-          <li>Camera Ready: May 20</li>
-          <li>Conference: May 25-26</li>
+          <li>Submission: May 30</li>
+          <li>Notification: June 10</li>
+          <li>Camera Ready: June 15</li>
+          <li>Conference: June 26 & 27</li>
         </ul>
       </div>
     </div>

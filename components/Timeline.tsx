@@ -1,10 +1,10 @@
 const milestones = [
-  { label: "Submission Deadline", date: "July 12, 2025" },
-  { label: "Reviews Due", date: "August 10, 2025" },
-  { label: "Notification", date: "August 20, 2025" },
-  { label: "Camera Ready", date: "September 10, 2025" },
-  { label: "Author Registration", date: "September 15, 2025" },
-  { label: "Conference", date: "October 15-17, 2025" },
+  { label: "Submission Deadline", date: "May 30, 2026" },
+  { label: "Reviews Due", date: "June 5, 2026" },
+  { label: "Notification", date: "June 10, 2026" },
+  { label: "Camera Ready", date: "June 15, 2026" },
+  { label: "Author Registration", date: "June 18, 2026" },
+  { label: "Conference", date: "June 26 & 27, 2026" },
 ];
 
 export default function Timeline() {
