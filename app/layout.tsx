@@ -31,14 +31,14 @@ export default function RootLayout({
         <nav className="bg-white/95 backdrop-blur-sm shadow-lg border-b border-gray-200 sticky top-0 z-50">
           <div className="w-full px-4 sm:px-6 lg:px-8">
             <div className="max-w-full mx-auto">
-              <div className="flex justify-between items-center py-4">
-                <Link href="/" className="flex items-center gap-3">
+              <div className="flex justify-between items-center py-0.5 md:py-1 max-h-16 md:max-h-20">
+                <Link href="/" className="flex items-center gap-0 h-full">
                   <img
-                    src="/iccinges-logo.svg"
+                    src="/iccinges-logo.png"
                     alt="ICCINGES Logo"
-                    className="h-14 md:h-16 w-auto"
+                    className="h-16 md:h-20 lg:h-24 w-auto object-contain max-h-full"
                   />
-                  <span className="text-2xl font-bold text-gray-900">2026</span>
+                  {/* <span className="text-2xl font-bold text-gray-900">2026</span> */}
                 </Link>
                 <div className="hidden lg:flex gap-1 items-center">
                   {navLinks.map((link) => (

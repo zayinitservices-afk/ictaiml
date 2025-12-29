@@ -42,7 +42,7 @@ export default function SpeakersPage() {
       title: "Technical Project Manager",
       affiliation: "NTT Data Singapore PVT LTD, Singapore",
       bio: "Specialization in data storage management, automation, problem solving and optimization.",
-      image: "/chandrasekar-surendhar.jpeg", // Placeholder - add image when available
+      image: "/chandrasekar-surendhar.jpg", // Placeholder - add image when available
     },
   ];
 
@@ -73,8 +73,8 @@ export default function SpeakersPage() {
                     />
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold text-gray-900 mb-1">{speaker.name}</h3>
-                      <p className="text-indigo-600 font-semibold mb-1">{speaker.title}</p>
-                      <p className="text-gray-600 text-sm mb-3">{speaker.affiliation}</p>
+                      <p className="text-indigo-600 font-semibold mb-1">{speaker.affiliation}</p>
+                      {/* <p className="text-gray-600 text-sm mb-3">{speaker.affiliation}</p> */}
                       <p className="text-gray-700 text-sm leading-relaxed">{speaker.bio}</p>
                     </div>
                   </div>
@@ -83,7 +83,7 @@ export default function SpeakersPage() {
             ))}
           </div>
 
-          <div className="mt-12 bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+          {/* <div className="mt-12 bg-white rounded-xl shadow-lg p-8 border border-gray-100">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Invited Speakers</h2>
             <p className="text-gray-600 mb-6">
               Additional invited speakers will be announced soon. Check back for updates.
@@ -102,7 +102,7 @@ export default function SpeakersPage() {
                 <p>Cutting-edge research presentations</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

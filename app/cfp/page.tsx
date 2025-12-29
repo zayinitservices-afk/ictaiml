@@ -9,7 +9,7 @@ export default function CfpPage() {
               Submit your research contributions to ICCINGES 2026
             </p>
           </div>
-          <div className="card space-y-8">
+        <div className="card space-y-8">
         <section className="bg-gradient-to-r from-indigo-50 to-purple-50 p-6 rounded-xl">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Scope</h2>
           <p className="text-gray-700 text-lg leading-relaxed">
@@ -142,6 +142,12 @@ export default function CfpPage() {
             <li>Student (on-site): USD 400 | Student (online): USD 250</li>
             <li>Extra page charge (if approved): USD 75/page</li>
           </ul>
+        </section>
+        <section className="bg-gradient-to-r from-indigo-50 to-purple-50 p-6 rounded-xl">
+          <h2 className="text-3xl font-bold mb-4 text-gray-900">Important note:</h2>
+          <p className="text-gray-700 text-lg leading-relaxed">
+            The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+          </p>
         </section>
           </div>
         </div>

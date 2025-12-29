@@ -8,15 +8,15 @@ export default function Hero() {
       <div className="relative w-full px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex flex-col items-center justify-center mb-6">
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <img
-                src="/iccinges-logo.svg"
+                src="/iccinges-logo.png"
                 alt="ICCINGES Logo"
                 className="h-32 md:h-40 lg:h-48 w-auto mx-auto drop-shadow-lg"
               />
-            </div>
+            </div> */}
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold drop-shadow-lg">
-              2026
+              ICCINGES 2026
             </h1>
           </div>
           <p className="text-2xl md:text-3xl mb-4 font-light">
