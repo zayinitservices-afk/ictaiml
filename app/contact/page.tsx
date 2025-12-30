@@ -6,7 +6,7 @@ export default function ContactPage() {
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-4">Contact Us</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Get in touch with the ICECAA 2025 organizing committee
+              Get in touch with the ICCINGES 2026 organizing committee
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -43,21 +43,21 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div>
                   <h4 className="font-semibold text-lg mb-2 text-gray-900">General Inquiries</h4>
-                  <p className="text-gray-700">Email: info@icecaa2025.org</p>
-                  <p className="text-gray-700">Phone: +1 (555) 123-4567</p>
+                  <p className="text-gray-700">Email: iccinges.con@gmail.com</p>
+                  <p className="text-gray-700">Phone: +91 96292 16321</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg mb-2 text-gray-900">Technical Support</h4>
-                  <p className="text-gray-700">Email: support@icecaa2025.org</p>
+                  <p className="text-gray-700">Email: iccinges.con@gmail.com</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg mb-2 text-gray-900">Registration</h4>
-                  <p className="text-gray-700">Email: registration@icecaa2025.org</p>
+                  <p className="text-gray-700">Email: iccinges.con@gmail.com</p>
                 </div>
-                <div className="pt-6 border-t border-gray-300">
+                {/* <div className="pt-6 border-t border-gray-300">
                   <h4 className="font-semibold text-lg mb-2 text-gray-900">Office Hours</h4>
                   <p className="text-gray-700">Monday - Friday: 9:00 AM - 5:00 PM (UTC+8)</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -80,11 +80,13 @@ export default function CfpPage() {
         
         <section>
           <h2 className="text-3xl font-bold mb-4 text-gray-900 pb-3 border-b-2 border-indigo-500">Submission Guidelines</h2>
-          <p className="text-gray-700 mb-4">
-            Papers must follow the Springer paper template. Regular papers: up to 8 pages; short
-            papers/work-in-progress: up to 4 pages. Include keywords and ORCID where available.
-            Submissions undergo double-blind peer review; please anonymize manuscripts.
-          </p>
+          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
+            <li>Papers must be original, not under review elsewhere.</li>
+            <li>Follow the ICCINGES 2026 template for formatting.</li>
+            <li>Submissions must be in English</li>
+            <li>All papers will undergo a rigorous peer-review process.</li>
+            <li>Accepted papers will be published in the conference proceedings.</li>
+          </ul>
           <div className="flex flex-wrap gap-3">
             <a 
               href="/springer-template.docm" 
@@ -133,20 +135,19 @@ export default function CfpPage() {
         <section className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-xl">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Registration & Publication</h2>
           <p className="text-gray-700 mb-2">
-            At least one author of an accepted paper must register. Proceedings will be submitted to IEEE
-            Xplore/Scopus (subject to approval) and made available to attendees. Offline payment and invoices
+            At least one author of an accepted paper must register. Proceedings will be submitted to Springer(subject to approval) and made available to attendees. Offline payment and invoices
             are supported for institutional processing.
           </p>
           <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
-            <li>Author (on-site): USD 650 | Author (online): USD 450</li>
-            <li>Student (on-site): USD 400 | Student (online): USD 250</li>
-            <li>Extra page charge (if approved): USD 75/page</li>
+            <li>Student (Indian): 8000 INR | Student (Foreigner): USD 100</li>
+            <li>Acadamecian (Indian): 9000 INR | Academician (Foreigner): USD 150</li>
+            <li>Professional (Indian): 10000 INR | Professional (Foreigner): USD 200</li>
           </ul>
         </section>
         <section className="bg-gradient-to-r from-indigo-50 to-purple-50 p-6 rounded-xl">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Important note:</h2>
-          <p className="text-gray-700 text-lg leading-relaxed">
-            The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+          <p className="text-blue-800 text-sl leading-relaxed">
+            The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support. The link will be updated in thi page very soon.
           </p>
         </section>
           </div>

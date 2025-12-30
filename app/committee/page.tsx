@@ -9,6 +9,10 @@ export default function CommitteePage() {
     { name: "Mr. Dinesh Arunraj", affiliation: "Skoruz Technologies, California"},
     { name: "Mr. Ameer Sulaiman", affiliation: "Zayin IT Services (OPC) PVT LTD, India "}
   ];
+
+  const conferenceChairs = [
+    { name: "Dr. Ajith Jubilson", affiliation: "VIT, Andra Pradesh, India"}
+  ];
   
   const generalChairs = [
     { name: "Dr. Xiao zhi Gao", affiliation: "University of Eastern, Finland"},
@@ -135,7 +139,9 @@ export default function CommitteePage() {
   ];
 
   const organizingCommittee = [
-    { name: "Dr. Alex Johnson", affiliation: "Local Organizing Chair", role: "Logistics" }
+    { name: "Mr. Senthil Kumar", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    { name: "Mrs. Nagarani", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    { name: "Mr. Balaji Ramakrishnan", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
   ];
 
   return (
@@ -179,6 +185,20 @@ export default function CommitteePage() {
               </div>
             </section>
             
+            <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
+                Conference Chairs
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {conferenceChairs.map((chair, idx) => (
+                  <div key={idx} className="p-4 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg">
+                    <p className="font-bold text-lg text-gray-900">{chair.name}</p>
+                    <p className="text-indigo-600 text-xs mb-3 font-normal">{chair.affiliation}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+
             <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
                 General Chairs
