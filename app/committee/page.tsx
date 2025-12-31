@@ -5,24 +5,30 @@ export default function CommitteePage() {
   ];
 
   const patrons = [
-    { name: "Dr. Ajith Jubilson", affiliation: "VIT, Andra Pradesh, India"},
     { name: "Mr. Dinesh Arunraj", affiliation: "Skoruz Technologies, California"},
     { name: "Mr. Ameer Sulaiman", affiliation: "Zayin IT Services (OPC) PVT LTD, India "}
   ];
 
   const conferenceChairs = [
-    { name: "Dr. Ajith Jubilson", affiliation: "VIT, Andra Pradesh, India"}
+    { name: "Prof. Pabitra Mitra", affiliation: " Indian Institute of Technology, Kharagpur, India"},
+    { name: "Dr. Ajith Jubilson", affiliation: "VIT, Andra Pradesh, India"},
+    { name: "Prof. Ram Bilas Pachori", affiliation: "Indian Institute of Technology, Indore, India"}
   ];
   
   const generalChairs = [
     { name: "Dr. Xiao zhi Gao", affiliation: "University of Eastern, Finland"},
-    { name: "Dr. Indra Priyadharshini", affiliation: "VIT, Chennai, India"}
+    
   ];
 
   const programChairs = [
-    { name: "Dr. G. Manikandan", affiliation: "Annai College of Engineering, kumbakonam"},
+    { name: "Dr. G. Manikandan", affiliation: "Annai College of Engineering, Kumbakonam"},
   ];
 
+  const registrationChairs = [
+       { name: "Mrs. Tamilarasi", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    ];
+
+  
   const internationalAdvisoryCommittee = [
     { name: "Dr. Jafar Ahmad Abed Alzubi", affiliation: "Al-Balqa Applied University, Jordon"},
     { name: "Dr. Xiao Zhi Gao", affiliation: "University of Eastern, Finland"},
@@ -84,8 +90,7 @@ export default function CommitteePage() {
      { name: "Dr. S Indra Priyadharshini", affiliation: "VIT, Chennai"},
      { name: "Dr. Chittaranjan hota", affiliation: "Birla Institute of Technology & Science, Pilani, Hyderabad"},
       { name: "Dr. Thilak Vadicherla", affiliation: "Indian Patent Office, Chennai"}
-            
-         
+           
       
   ];
 
@@ -138,11 +143,65 @@ export default function CommitteePage() {
       { name: "Dr. Saroj Biswas", affiliation: "National Institute of Technology  ,Silchar "}
   ];
 
+  
+ const financeChairs = [
+    { name: "Dr. Indra Priyadharshini", affiliation: "VIT, Chennai, India"},
+    { name: "Mr. Abul Hasan", affiliation: "Zayin IT Services (OPC) PVT LTD, India"},
+ ];
+
   const organizingCommittee = [
-    { name: "Mr. Senthil Kumar", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
-    { name: "Mrs. Nagarani", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
-    { name: "Mr. Balaji Ramakrishnan", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    { name: "Mrs. Akalya ", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    { name: "Mrs. Deepika", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    { name: "Mrs. Praveena", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    { name: "Mrs. Vinodhini", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    { name: "Mrs. Madhumathi", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    { name: "Mrs. Bharathi", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    { name: "Mrs. Sowkarthika", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    
   ];
+
+  const publicationChairs = [
+    { name: "Dr. Revanth Kumar ", affiliation: "Malla Reddy University, Hyderabad, India"},
+     { name: "Dr.  Suneeta Satapathy ", affiliation: "SOA University, Odisha, India"},
+      { name: "Dr.  Shweta Sankhwar ", affiliation: "Maitreyi College, University of Delhi, India"},
+  ];
+
+  const publicityAndSocialMediaChairs = [
+    { name: "Mr. Ahmad J Obaid", affiliation: "University of Kufa, Iraq"},
+    { name: "Dr. Subhendu Kumar Pati", affiliation: "KEC, Odisha, India"},
+    { name: "Dr. Priya Gupta", affiliation: "ABVSME, JNU, New Delhi, India"},
+    { name: "Dr. Princy Randhawa", affiliation: "Dayananda Sagar University, Bengaluru, India"},
+    { name: "Dr. Shreyas Rajendra Hole", affiliation: "Dayananda Sagar University, Bengaluru, India"},
+    { name: "Dr. Subhendu Kumar Pati", affiliation: " KEC, Odisha, India"},
+    { name: "Dr. Imliotoshi Jamir", affiliation: "Dept. of Biotechnology, Nagaland University, India"},
+  ];
+
+  const webChairs = [
+    { name: "Mr. Nihaal Santosh Shindhe", affiliation: "Mighty Monkey Media LLP, Guntur, Andhra Pradesh, India"},
+    { name: "Mr. Rahul Nayak", affiliation: "Mighty Monkey Media LLP, Guntur, Andhra Pradesh, India"},
+    { name: "Er. Shanchamo YanthanRahul Nayak", affiliation: "Dept. of IT, Nagaland University, India"},
+    { name: "Er. Zajamo Yanthan", affiliation: "Sys Admin, Lumami Campus, Nagaland University, India"},
+    { name: "Er. Anthony Visa", affiliation: "Asst. Sys Admin, Dimapur Campus, India"},
+  ];
+
+ const sessionManagementChairs = [
+    { name: "Mrs. Faritha", affiliation: "Zayin IT Services (OPC) Pvt Ltd, India"},
+    { name: "Mrs. Kamalavani", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+
+  ];
+
+  const tutorialChairs = [
+     { name: "Mrs. Rameeja", affiliation: "Annai College of Engineering & Technology", role: "Associate Professor" },
+    { name: "Mrs. Jehira ", affiliation: "Zayin IT Services (OPC) Pvt Ltd, India"},
+  ];
+
+
+      const workshopChairs = [
+    { name: "Dr. Deepa Jose", affiliation: "KCG College of Engineering, Chennai, India"},
+    { name: "Dr. Sirisha Potluri", affiliation: " KL University, Hyderabad, India"},
+  ];
+
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
@@ -151,7 +210,7 @@ export default function CommitteePage() {
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-4">Organizing Committee</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meet the distinguished researchers and professionals organizing ICTAIML
+              Meet the distinguished researchers and professionals organizing ICCINGES
             </p>
           </div>
 
@@ -229,6 +288,20 @@ export default function CommitteePage() {
 
             <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
+                Registration Chairs
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {registrationChairs.map((member, idx) => (
+                  <div key={idx} className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-gray-900">{member.name}</p>
+                    <p className="text-indigo-600 text-xs mb-3 font-normal">{member.affiliation}</p>                    
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
                 International Advisory Committee
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -271,6 +344,20 @@ export default function CommitteePage() {
 
             <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
+                Finance Chairs
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {financeChairs.map((member, idx) => (
+                  <div key={idx} className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-gray-900">{member.name}</p>
+                    <p className="text-indigo-600 text-xs mb-3 font-normal">{member.affiliation}</p>                    
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
                 Organizing Committee
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -282,6 +369,92 @@ export default function CommitteePage() {
                 ))}
               </div>
             </section>
+
+            <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
+                Session Management Chairs
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {sessionManagementChairs.map((member, idx) => (
+                  <div key={idx} className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-gray-900">{member.name}</p>
+                    <p className="text-indigo-600 text-xs mb-3 font-normal">{member.affiliation}</p>                    
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
+                Publication Chairs
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {publicationChairs.map((member, idx) => (
+                  <div key={idx} className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-gray-900">{member.name}</p>
+                    <p className="text-indigo-600 text-xs mb-3 font-normal">{member.affiliation}</p>                    
+                  </div>
+                ))}
+              </div>
+            </section> 
+
+            <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
+                Publicity and Social Media Chairs
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {publicityAndSocialMediaChairs.map((member, idx) => (
+                  <div key={idx} className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-gray-900">{member.name}</p>
+                    <p className="text-indigo-600 text-xs mb-3 font-normal">{member.affiliation}</p>                    
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
+                Web Chairs
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {webChairs.map((member, idx) => (
+                  <div key={idx} className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-gray-900">{member.name}</p>
+                    <p className="text-indigo-600 text-xs mb-3 font-normal">{member.affiliation}</p>                    
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
+                Workshop Chairs
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {workshopChairs.map((member, idx) => (
+                  <div key={idx} className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-gray-900">{member.name}</p>
+                    <p className="text-indigo-600 text-xs mb-3 font-normal">{member.affiliation}</p>                    
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <section className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-indigo-500">
+                Tutorial Chairs
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {tutorialChairs.map((member, idx) => (
+                  <div key={idx} className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-gray-900">{member.name}</p>
+                    <p className="text-indigo-600 text-xs mb-3 font-normal">{member.affiliation}</p>                    
+                  </div>
+                ))}
+              </div>
+            </section>
+         
+
           </div>
         </div>
       </div>

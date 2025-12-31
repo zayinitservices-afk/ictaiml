@@ -44,7 +44,6 @@ export default function ContactPage() {
                 <div>
                   <h4 className="font-semibold text-lg mb-2 text-gray-900">General Inquiries</h4>
                   <p className="text-gray-700">Email: iccinges.con@gmail.com</p>
-                  <p className="text-gray-700">Phone: +91 96292 16321</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg mb-2 text-gray-900">Technical Support</h4>
